@@ -159,20 +159,35 @@ sm.qqplot(dfhn['HNS_qt'],line='45')
 plt.show()
 ```
 # OUPUT
+## Initial Dataset:
 ![](o1.png)
+## Data Checking:
 ![](02.png)
+##  Transforming Moderately positive skew:
 ![](o3.png)
+
 ![](o4.png)
+##  Transforming Highly positive skew:
 ![](o5.png)
+##  Transforming Moderately negative skew:
 ![](o6.png)
+##  Transforming Highly negative skew:
 ![](o7.png)
+## Graphical Representation of the Skew difference:
 ![](o8.png)
+
 ![](o9.png)
+
 ![](o10.png)
+
 ![](o11.png)
+
 ![](o12.png)
+
 ![](o13.png)
+
 ![](o14.png)
+
 ![](o15.png)
 
 # For Titanic_dataset.csv:
@@ -254,15 +269,25 @@ df["Pclass"].hist()
 df["Pclass_sq"].hist()
 ```
 # Output:
+## Initial Dataset:
 ![](o16.png)
+## Data Cleaning:
 ![](o17.png)
+
 ![](o18.png)
+
 ![](o19.png)
+## Data Transformation:
 ![](o20.png)
+## Dataset with best transformations:
 ![](o21.png)
+## Graphical Representation of the Skew difference:
 ![](o22.png)
+
 ![](o23.png)
+
 ![](o24.png)
+
 ![](o25.png)
 # RESULT:
 
